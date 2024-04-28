@@ -6,7 +6,7 @@
 }
 
 .parentDiv{
-    background-color: #d4bbff;
+    /* background-color: #d4bbff; */
     /* height: 100%; */
     width: 100%;
     display: flex;
@@ -64,3 +64,23 @@
     margin-top: 100px;
 
 } */
+
+
+    
+
+ 
+@media only screen and (max-width: 375px) {
+    .getStart {
+        width: 80%; /* Set button width to 80% of the parent container */
+    }
+
+    .logo{
+        width: 2%;
+    }
+
+    .parentDiv{
+        /* flex-direction: row; */
+        max-width: 375px;
+        height: 667px;
+    }
+} 
