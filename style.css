@@ -65,22 +65,21 @@
 
 } */
 
-
-    
-
- 
+/* Media query for mobile screens with a width of 375px */
 @media only screen and (max-width: 375px) {
-    .getStart {
-        width: 80%; /* Set button width to 80% of the parent container */
+    .logo {
+        margin: 10px auto; 
+
     }
 
-    .logo{
-        width: 2%;
+    .textDiv,
+    .textDiv2,
+    .btnDiv {
+        margin: 10px; 
     }
 
     .parentDiv{
-        /* flex-direction: row; */
-        max-width: 375px;
-        height: 667px;
+        display: inline;
+        width: 375px;
     }
-} 
+}
