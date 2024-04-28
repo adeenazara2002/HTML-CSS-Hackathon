@@ -10,6 +10,8 @@
     /* height: 100%; */
     width: 100%;
     display: flex;
+    /* flex-direction: column; */
+
 }
 
 .child1{
@@ -59,17 +61,23 @@
     width: 170px;
     height: 50px;
 }
+
+.getStart:hover{
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #4e63cd , rgba(43, 226, 205, 0.785));
+    color: blue;
+    
+}
 /* .every{
     margin-left: 100px;
     margin-top: 100px;
 
 } */
 
-/* Media query for mobile screens with a width of 375px */
 @media only screen and (max-width: 375px) {
     .logo {
         margin: 10px auto; 
-
     }
 
     .textDiv,
@@ -78,17 +86,10 @@
         margin: 10px; 
     }
 
-    /* .parentDiv{
-        display: flex;
-        flex-direction: column;
-        width: 375px;
-    } */
-
     .parentDiv{
-        /* background-color: #d4bbff; */
-        /* height: 100%; */
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
+        align-items: center; 
     }
 }
